@@ -1,0 +1,258 @@
+html, body {
+    font-size: 20px;
+    width: 100%px;
+    height: auto;
+    margin: 0px;
+    font-family: 'Euclid Circular B', sans-serif;
+}
+ /*header starts*/
+.header-container {
+    width: 100%;
+    height: 2.5rem;
+    background: linear-gradient(to bottom right,rgb(154, 154, 244),
+    rgb(43, 55, 183));
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.06rem solid black;
+    color: azure;
+    position: fixed;
+    box-shadow: 0.3rem 0.6rem 1rem 0 rgba(0,0,0,0.4);
+    z-index: 999;
+}
+.meniu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+.logo {
+    height: 2rem;
+    float: left;
+    margin-right: auto;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+.button-apiemus,
+.button-kaiptaiveikia {
+    height: 2.5rem !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+.button-prisijungti,
+.button-registracija,
+.button-apiemus,
+.button-kaiptaiveikia {
+    font-family: 'Euclid Circular B', sans-serif;
+    font-size: 0.75rem;
+    font-weight:500;
+    color: azure;
+    background-color: transparent;
+    width: auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+.button-prisijungti:hover,
+.button-registracija:hover, 
+.button-apiemus:hover,
+.button-kaiptaiveikia:hover {
+    background-color: rgb(154, 154, 244);
+    transition: linear 0.3s;
+}
+.button-prisijungti:active,
+.button-registracija:active, 
+.button-apiemus:active,
+.button-kaiptaiveikia:active {
+    background-color: rgb(72, 83, 230);
+    transform: scale(0.95);
+}
+.button-prisijungti,
+.button-registracija {
+    position: relative;
+    top: 0.25rem;
+    border: 0.08rem solid white;
+    border-radius: 0.2rem;
+    height: 1.8rem;
+    border-color: azure;
+    transition: ease-in-out;
+    transform: scale(1);
+}
+/*header finishes*/
+/*main-headline starts*/
+.main-headline {
+    width: 100%;
+    height: 29rem;
+    position: relative;
+    top: 2rem; 
+}
+.carpenter-img {
+    width: 65%;
+    height:auto;
+    position: absolute;
+}
+.main-headline-container {
+    display: flex;
+    color: rgb(56, 51, 51);
+    letter-spacing: normal;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 112%;
+    width: 45%;
+    background: linear-gradient(to left,rgb(255, 255, 255) 85%,rgba(255, 255, 255, 0));
+    position: absolute;
+    right: 0%;
+    font-size: 1.1rem;
+}
+.main-headline-h1,
+.main-headline-p,
+.main-headline-hr {
+    position: relative;
+    left: 7rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.main-headline-h1 {
+}
+.main-headline-hr {
+    margin-left: 0;
+    width: 12rem;
+    height: 0.1rem;
+    background-color: rgb(239, 156, 21);
+
+}
+.main-headline-button-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 7rem;
+    margin-top: 1.4rem;
+}
+.main-headline-button1,
+.main-headline-button2 {
+    font-family: 'Euclid Circular B', sans-serif;
+    font-size: 0.85rem;
+    font-weight:550;
+    height: 2rem;
+    width: 16rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    position: relative;
+    bottom: 0.6rem;
+}
+.main-headline-button2 {
+    background-color: rgb(230, 227, 227);
+    color: rgb(56, 51, 51);
+    border: none;
+}
+.main-headline-button1 {
+    background-color:rgb(255, 189, 83);
+    color: white;
+    border: none;
+}
+.main-headline-button1:hover {
+    opacity: 80%;
+    background-color: rgb(239, 156, 21);
+    border: solid black 0.05rem;
+    transition: linear 0.3s;
+}
+.main-headline-button2:hover {
+    background-color: rgb(221, 214, 212);
+    transition: linear 0.3s;
+    border: solid black 0.05rem;
+}
+.main-headline-button1:active,
+.main-headline-button2:active {
+    box-shadow: 0 5px rgb(230, 227, 227);
+    transform: translateY(4px);
+}
+/*main-headline finish*/
+/*first-article starts*/
+.first-article {
+    width: 100%;
+    height: 15rem;
+    background-color: white;
+/*first-article finish*/
+/*second-article starts*/
+}
+.second-article {
+    width: 100%;
+    height: 80rem;
+}
+.lithuania-img {
+    width: 100%;
+    height: auto;
+}
+/*footer starts*/
+footer {
+    background-color: #495867;
+    width: 100%;
+    height: 70rem;
+    position: relative;
+}
+.page-bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:smaller;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border-radius: 0.5rem;
+    height: 7rem;
+    background-color: black;
+    position: absolute;
+    left: 10%;
+    bottom: 0rem;
+}
+.crediantials,
+.working-hours,
+.site-info {
+    font-size: 0.6rem;
+    width: 26%;
+    margin-left: 1.5rem;
+    color: azure;
+}
+.working-hours {
+    width: 16%;
+}
+.site-info {
+    margin-top: 0.2rem;
+    margin-left: 1.2rem;
+    font-size: 0.8rem;
+    width: 50%;
+}
+a:visited { 
+    text-decoration: none; 
+    color: azure; 
+   }
+.fa {
+    padding: 0.7rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    position: relative;
+    left: 5rem;
+}
+.fa:hover {
+    opacity: 0.6;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+/*footer ends*/
